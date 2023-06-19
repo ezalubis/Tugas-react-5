@@ -1,0 +1,10 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    width: 200px;
+    border-radius: 90px;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  font-family: "Google Sans";
+  & .atas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  & .cont{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-top: 40px;
+  } 
+  & button {
+    background-color: black;
+    color: white;
+    height: 36px;
+    padding-inline: 18px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    min-width: 96px;
+    margin: 5px;
+    font-weight: bold;
+    &:hover {
+      background-color: red;
+    }
+  }
+  & .awal{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  & .bawah{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+}
